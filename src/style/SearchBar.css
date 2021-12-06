@@ -1,0 +1,55 @@
+.search {
+  width: 80%;
+  height: 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border: 2px solid #AEAEAE;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 39.5px;
+}
+
+.search .searchicon {
+  background-image: url("../icons/search-colored.png");
+  width: 2%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30px;
+}
+
+.search input {
+  width: 90%;
+  height: 2.5em;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+  color: #858585;
+  border: none;
+  outline: none;
+}
+
+.search input:focus {
+  border: none;
+  outline: none;
+}
+
+.search .crossicon {
+  border-radius: 30px;
+  background-color: #0F51A6;
+  width: 2em;
+  height: 2em;
+  background-image: url("../icons/cross.png");
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=SearchBar.css.map */

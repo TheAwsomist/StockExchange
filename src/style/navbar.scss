@@ -1,0 +1,59 @@
+.navbarsafespace {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  h4 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+
+    color: #AEAEAE;
+  }
+  .navactive{
+      color: #0F51A6;
+      border-bottom:4px solid #0F51A6;
+  }
+  .h4active{
+      color: #0F51A6;
+  }
+
+  .icons{
+      width: 35%;
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  .navbaricons{
+      border-radius: 30px;
+      background-color: #0F51A6;
+      width: 3.55em;
+      height: 3.55em;
+  }
+
+  .search{
+      background-image: url("../icons/search.png");
+      background-size: 60%;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  .notification{
+      background-image: url("../icons/notification.png");
+      background-size: 60%;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  .profile{
+      background-image: url("../icons/user.png");
+      background-size: 60%;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid grey;
+}

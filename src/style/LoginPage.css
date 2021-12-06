@@ -1,0 +1,157 @@
+.safespace {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.safespace .left {
+  width: 40%;
+  background-image: url("../icons/logo.png");
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+.safespace .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+}
+
+.logincard {
+  width: 70%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 10px rgba(40, 120, 214, 0.25);
+          box-shadow: 0px 0px 10px rgba(40, 120, 214, 0.25);
+  border-radius: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 2.9em;
+}
+
+.logincard h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 45px;
+  /* identical to box height */
+  color: #0f51a6;
+}
+
+.logincard .cardsafespace {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.logincard .cardsafespace .loginform {
+  width: 70%;
+}
+
+.logincard .email,
+.logincard .password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.logincard .email label,
+.logincard .password label {
+  text-align: start;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #358bee;
+}
+
+.logincard .email input,
+.logincard .password input {
+  margin-top: 11px;
+  border: 1px solid #aeaeae;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 30.5px;
+  height: 61px;
+  font-size: 20px;
+  padding-left: 27px;
+  font-weight: 500;
+}
+
+.logincard .forgor p {
+  text-align: end;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height */
+  text-align: end;
+  color: #358bee;
+}
+
+.logincard .loginbutton {
+  width: 100%;
+  height: 3.5em;
+  background: linear-gradient(91.56deg, #1153a9 0%, #358bee 100%);
+  border-radius: 50px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 26px;
+}
+
+.logincard .password {
+  margin-top: 27px;
+}
+
+.statement {
+  width: 76%;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 30px;
+  color: #aeaeae;
+}
+
+.forgotunderbelly {
+  margin-top: 42px;
+}
+
+a, a:active {
+  text-decoration: none;
+}
+/*# sourceMappingURL=LoginPage.css.map */
