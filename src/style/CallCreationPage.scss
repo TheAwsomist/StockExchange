@@ -1,0 +1,72 @@
+.Callsafespace {
+  width: 60%;
+  margin: 2.4em auto;
+  display: flex;
+  .call-right,
+  .call-left {
+    width: 50%;
+  }
+  .cardright {
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    padding: 1.875em 0em 1.875em 1.6em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+  }
+  h2,
+  p {
+    margin-top: 0;
+    text-align: start;
+  }
+  .negative {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #fe5a5a;
+  }
+  .positive {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #55aa37;
+  }
+  .details {
+    p {
+      font-size: 25px;
+    }
+  }
+  .detailheading {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+
+    color: #358bee;
+  }
+}
+
+.radio-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  width: 100%;
+  font-size: 28px;
+  line-height: 34px;
+  /* identical to box height */
+  .radiobuttondiv{
+      display: flex;
+      align-items: center;
+  }
+  input{
+      margin-top: 0%;
+  }
+  label{
+      margin-left: 7px;
+  }
+}

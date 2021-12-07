@@ -1,12 +1,12 @@
 import Navbar from "../Navbar";
-import SearchBar from "../SearchBar";
 import "../../style/Layout.css";
+import CallCreationPage from "./CallCreationPage";
 
 const Layout = () => {
     return ( 
         <>
         <div><Navbar/></div>
-        <div className="searcharea"><SearchBar/></div>
+        <CallCreationPage/>
         </>
      );
 }
