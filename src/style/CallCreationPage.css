@@ -1,5 +1,38 @@
+@media screen and (max-width: 1700px) and (min-width: 1251px) {
+  .Callsafespace {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 3em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1701px) {
+  .Callsafespace {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .Callsafespace {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 3em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+}
+
 .Callsafespace {
-  width: 60%;
   margin: 2.4em auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11,7 +44,8 @@
   width: 50%;
 }
 
-.Callsafespace .cardright {
+.Callsafespace .cardright,
+.Callsafespace .cardleft {
   -webkit-box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.15);
   border-radius: 30px;
@@ -27,6 +61,10 @@
       -ms-flex-align: start;
           align-items: flex-start;
   width: 90%;
+}
+
+.Callsafespace .cardleft {
+  width: 100%;
 }
 
 .Callsafespace h2,
@@ -94,5 +132,239 @@
 
 .radio-options label {
   margin-left: 7px;
+}
+
+.cardleft {
+  margin-top: 1.125em;
+}
+
+.cardleft form {
+  width: 94%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cardleft .radio-options {
+  width: 50%;
+}
+
+.cardleft .riskradio {
+  width: 100%;
+}
+
+.callformtags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  margin-bottom: 1em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.callformtags label {
+  text-align: start;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #333333;
+}
+
+.callformtags input {
+  margin: 0;
+}
+
+.callformtags .tagslabels {
+  margin-left: 5%;
+  font-size: 19px;
+  color: #358bee;
+}
+
+.callformtags .editbutton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #358bee;
+}
+
+.callformtags .taginput {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.callformtags .maintag {
+  width: 30%;
+}
+
+.callformtags .tags {
+  width: 53%;
+  padding: 10px;
+  border: 1px solid #0f51a6;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 23px;
+}
+
+.callform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  margin-bottom: 1em;
+}
+
+.callform label {
+  text-align: start;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #333333;
+}
+
+.callform label,
+.callform input {
+  width: 50%;
+}
+
+.callform input {
+  outline: #0f51a6;
+  border: 1px solid #0f51a6;
+  width: 12.1em;
+  height: 3.1em;
+  border-radius: 23px;
+}
+
+.riskradio {
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: start;
+      align-content: start;
+}
+
+.riskradio input,
+.riskradio label {
+  margin: 0;
+  font-size: 19px;
+}
+
+.riskradio label {
+  margin-left: 5%;
+  font-size: 19px;
+  color: #358bee;
+}
+
+.riskradio .radiobuttondiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  width: 100%;
+}
+
+.risks {
+  width: 53%;
+  padding: 15px;
+  border: 1px solid #0f51a6;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 23px;
+}
+
+.usertype {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.usertype .userselectionlabel {
+  width: 30%;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #333333;
+  text-align: start;
+}
+
+.usertype #usertype {
+  width: 53%;
+  border-radius: 23px;
+  border: 1px solid #0f51a6;
+  color: #333333;
+}
+
+.usertable {
+  width: 70%;
+  padding: 15px;
+  border-radius: 23px;
+  border: 1px solid #0f51a6;
+}
+
+.usertable .searchicon {
+  width: 15%;
+}
+
+.usertable .search {
+  width: 100%;
+  height: 3em;
+}
+
+.usertable .search input {
+  height: 1.5em;
+  width: 70%;
+  font-size: 16px;
+}
+
+.usernametable {
+  width: 100%;
+  color: #666666;
+}
+
+.usernametable .head {
+  background-color: #EFEFEF;
+  color: #838383;
+}
+
+.usernametable .username {
+  text-align: start;
+  padding-left: 1.4em;
+}
+
+.usernametable .mobilenumber {
+  text-align: end;
 }
 /*# sourceMappingURL=CallCreationPage.css.map */

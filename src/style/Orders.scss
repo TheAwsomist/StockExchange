@@ -1,0 +1,134 @@
+.OrdersPage {
+  width: 100%;
+
+  .tableoptions {
+    width: 95%;
+    margin: 1.25em auto;
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      background: #0f51a6;
+      border-radius: 10px;
+      width: 9.1em;
+      height: 3.25em;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 33px;
+      /* identical to box height */
+
+      color: #ffffff;
+    }
+  }
+  table {
+    .tableheading {
+      background-color: #efefef;
+      height: 4.6em;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      /* identical to box height */
+
+      text-align: right;
+
+      color: #666666;
+      text-align: center;
+    }
+    width: 100%;
+  }
+  #all {
+    width: 1em;
+    height: 1em;
+  }
+}
+
+td {
+  height: 4.6em;
+}
+
+table,
+td,
+th {
+  border: 1px solid #cccccc;
+}
+.stockname {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.positive {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #55aa37;
+}
+.negative {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #fe5a5a;
+}
+
+.fancyentry {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #0f51a6;
+}
+.ordered {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #f76707;
+}
+.executed {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #55AA37;
+}
+.quantity {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #55aa37;
+}
+.date {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #666666;
+}
+.filters{
+    display: flex;
+    align-items: center;
+    h4{
+        margin: 0;
+    }
+}
+.filtericon{
+    width: 1.9em;
+    height: 1.9em;
+    background-image: url("../icons/filter.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

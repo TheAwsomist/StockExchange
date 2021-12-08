@@ -1,12 +1,16 @@
 import Navbar from "../Navbar";
 import "../../style/Layout.css";
 import CallCreationPage from "./CallCreationPage";
+import Orders from "./Orders";
+import Executed from "./Executed";
 
-const Layout = () => {
+const Layout = ({children}) => {
     return ( 
         <>
         <div><Navbar/></div>
-        <CallCreationPage/>
+        <main>{children}</main>
+        {/* <Orders/> */}
+        {/* <Executed/> */}
         </>
      );
 }
